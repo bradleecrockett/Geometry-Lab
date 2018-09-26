@@ -11,38 +11,47 @@
 #
 import math
 
+# rect_area returns the area of a rectangle with a given length and width
+# It takes 2 params, the length and width of the rectangle
+def rect_area(length, width):
 
-def rect_area(length: float, width: float):
-    """Returns the area of a rectangle with a given length and width"""
+
+    return 0
+
+# rect_perimeter returns the perimeter of a rectangle with a given length and width
+# It takes 2 params, the length and width of the rectangle
+def rect_perimeter(length, width):
+
+
+    return 0
+
+# triangle_area returns the area of a triangle with a given base and height
+# it takes two parameters (base and height) that represents the base and height of the triangle
+def triangle_area(base, height):
+
+
+    return 0
+
+# circle_area returns the area of a circle with a given radius
+# it takes one parameter (radius) that represents the radius of the circle
+def circle_area(radius):
+
+
+    return 0
+
+# circle_perimeter returns the perimeter of a circle with a given radius
+# it takes one parameter (radius) that represents the radius of the circle
+def circle_circumference(radius):
+
 
     return 0
 
 
-def rect_perimeter(length: float, width: float):
-    """Returns the perimeter of a rectangle with a given length and width"""
+# calculate_slope returns the slope between the 2 points (x1, y1) and (x2, y2)
+# it takes in 4 params, x1 and y1 that represent the x and y coordinates of point 1
+# and x2 and y2 that represent the x and y coordinates of point 2
+def calculate_slope(x1, y1, x2, y2):
+
 
     return 0
 
-
-def triangle_area(base: float, height: float):
-    """Returns the area of a triangle with a given length and width"""
-
-    return 0
-
-
-def circle_area(radius: float):
-    """Returns the area of a circle with a given radius"""
-
-    return 0
-
-
-def circle_circumference(radius: float):
-    """Returns the circumference of a circle  with a given radius"""
-
-    return 0
-
-
-def calculate_slope(x1: float, y1: float, x2: float, y2: float):
-    """Returns the slope between the 2 points (x1, y1) and (x2, y2)"""
-
-    return 0

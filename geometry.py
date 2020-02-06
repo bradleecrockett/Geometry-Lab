@@ -1,6 +1,6 @@
-# Name: Brad
-# Date: 2/6
-# Period: 3
+# Name:
+# Date:
+# Period:
 # Description:  Define the functions described in comments below.
 #               Functions should should pass all tests.  Proper
 #               pep-8 formatting should be used and comments should

@@ -7,7 +7,9 @@ values as described in the comments.
 Be sure to complete the header block appropriately with
 your name and date etc.
 
-All tests in ```test_geometry.py``` should pass 
-when you run the ```test_geometry.py``` file.
+Complete each function so that it returns the appropriate value for the given parameters. Run the program to ensure that the calculations look correct.
+
+When then functions all work properly, run ```test_geometry.py```. All tests in  should pass 
+when you run the ```test_geometry.py``` file. You should see 6 tests that pass and have green check marks.
 
 

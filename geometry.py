@@ -1,6 +1,6 @@
-# Name:
-# Date:
-# Period:
+# Name: Brad
+# Date: 2/6
+# Period: 3
 # Description:  Define the functions described in comments below.
 #               Functions should should pass all tests.  Proper
 #               pep-8 formatting should be used and comments should
@@ -60,8 +60,8 @@ def calculate_slope(x1, y1, x2, y2):
 
 
 def main():
-    print("A rectangle with sides 10 and 5 have a perimeter of:", rect_perimeter(10,5))
     print("A rectangle with sides 10 and 5 have an area of:", rect_area(10,5))
+    print("A rectangle with sides 10 and 5 have a perimeter of:", rect_perimeter(10, 5))
     print("A triangle with base 10 and height 5 have an area of:", triangle_area(10,5))
     print("A circle with radius 5 has an area of:", circle_area(5))
     print("A circle with radius 5 has an circumference of:", circle_circumference(5))

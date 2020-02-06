@@ -55,3 +55,17 @@ def calculate_slope(x1, y1, x2, y2):
 
     return 0
 
+
+def main():
+    print("A rectangle with sides 10 and 5 have a perimeter of:", rect_perimeter(10,5))
+    print("A rectangle with sides 10 and 5 have an area of:", rect_area(10,5))
+    print("A triangle with base 10 and height 5 have an area of:", triangle_area(10,5))
+    print("A circle with radius 5 has an area of:", circle_area(5))
+    print("A circle with radius 5 has an circumference of:", circle_circumference(5))
+    print("The slope of the line between (1,1) and (5,3) is:", calculate_slope(1,1,5,3))
+
+
+if __name__ == '__main__':
+    main()
+
+

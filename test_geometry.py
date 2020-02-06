@@ -3,15 +3,15 @@ import math
 
 
 class TestGeometry(TestCase):
-    def test_rect_area(self):
-        from geometry import rect_area
-        self.assertEqual(rect_area(4, 5), 20)
-        self.assertEqual(rect_area(1.2, 4), 4.8)
-
     def test_rect_perimeter(self):
         from geometry import rect_perimeter
         self.assertEqual(rect_perimeter(4, 5), 18)
         self.assertEqual(rect_perimeter(1.2, 4), 10.4)
+
+    def test_rect_area(self):
+        from geometry import rect_area
+        self.assertEqual(rect_area(4, 5), 20)
+        self.assertEqual(rect_area(1.2, 4), 4.8)
 
     def test_triangle_area(self):
         from geometry import triangle_area
